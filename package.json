@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Converts metric units to any of their multiples or submultiples.",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "set-test": "npm install --dev",
+    "lint": "eslint src && eslint lib",
+    "test": "jest --config jest.config.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ModCord/unit-converter.git"
@@ -23,5 +27,10 @@
     "url": "https://github.com/ModCord/unit-converter/issues"
   },
   "homepage": "https://github.com/ModCord/unit-converter#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.31.0"
+  },
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
 }
