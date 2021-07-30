@@ -1,14 +1,12 @@
 {
-  "name": "time-convert",
+  "name": "@modcord/unit-converter",
   "version": "0.0.1",
-  "description": "convert miliseconds to any format",
-  "main": "index.js",
-  "scripts": {
-    "test": "node ./test | faucet"
-  },
+  "description": "Converts metric units to any of their multiples or submultiples.",
+  "main": "lib/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thk2b/time-convert.git"
+    "url": "git+https://github.com/ModCord/unit-converter.git"
   },
   "keywords": [
     "time",
@@ -19,14 +17,11 @@
     "seconds",
     "milliseconds"
   ],
-  "author": "thk2b",
+  "author": "MrAugu#7917",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thk2b/time-convert/issues"
+    "url": "https://github.com/ModCord/unit-converter/issues"
   },
-  "homepage": "https://github.com/thk2b/time-convert#readme",
-  "devDependencies": {
-    "faucet": "0.0.1",
-    "tape": "^4.8.0"
-  }
+  "homepage": "https://github.com/ModCord/unit-converter#readme",
+  "devDependencies": {}
 }
