@@ -1,15 +1,15 @@
 const Unit = require("../lib/Unit");
 
-const MILLISECONDS = 1;
-const SECOND = 1 * 10^3;
-const MINUTE = 6 * 10^4;
-const HOUR = 36 * 10^5;
-const DAY = 864 * 10^5;
-const WEEK = 6048 * 10^5;
-const MONTH = 2.62974383 * 10^9;
-const YEAR = 3.1556926 * 10^10;
+const MILLISECOND = 1 * Math.pow(10, 0);
+const SECOND = 1 * Math.pow(10, 3);
+const MINUTE = 6 * Math.pow(10, 4);
+const HOUR = 36 * Math.pow(10, 5);
+const DAY = 864 * Math.pow(10, 5);
+const WEEK = 6048 * Math.pow(10, 5);
+const MONTH = 2.62974383 * Math.pow(10, 9);
+const YEAR = 3.1556926 * Math.pow(10, 10);
 
-const milliseconds = new Unit(MILLISECONDS);
+const millisecond = new Unit(MILLISECOND);
 const second = new Unit(SECOND);
 const minute = new Unit(MINUTE);
 const hour = new Unit(HOUR);
@@ -17,7 +17,7 @@ const day = new Unit(DAY);
 const week = new Unit(WEEK);
 const month = new Unit(MONTH);
 const year = new Unit(YEAR);
-const ms = milliseconds;
+const ms = millisecond;
 const sec = second;
 const s = sec;
 const min = minute;
@@ -31,7 +31,7 @@ const y = year;
 
 module.exports = {
   constants: {
-    MILLISECONDS,
+    MILLISECOND,
     SECOND,
     MINUTE,
     HOUR,
@@ -40,7 +40,7 @@ module.exports = {
     MONTH,
     YEAR
   },
-  milliseconds,
+  millisecond,
   ms,
   second,
   sec,
