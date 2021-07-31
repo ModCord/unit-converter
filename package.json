@@ -1,6 +1,6 @@
 {
   "name": "@modcord/unit-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts metric units to any of their multiples or submultiples.",
   "main": "index.js",
   "scripts": {
@@ -28,9 +28,7 @@
   },
   "homepage": "https://github.com/ModCord/unit-converter#readme",
   "devDependencies": {
-    "eslint": "^7.31.0"
-  },
-  "dependencies": {
+    "eslint": "^7.31.0",
     "jest": "^27.0.6"
   },
   "directories": {
